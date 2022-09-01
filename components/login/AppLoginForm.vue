@@ -28,7 +28,7 @@
                                             <input type="checkbox" id="chb1">
                                             <label for="chb1">
                                             Remember Me 
-                                                <router-link to="forget" class="forget">Forgot My Password?</router-link>
+                                                <nuxt-link to="forget" class="forget">Forgot My Password?</nuxt-link>
                                             </label>
                                         </div>
                                     </div>
@@ -40,7 +40,7 @@
                                     <div class="col-12">
                                         <p class="account-desc">
                                             Not a Member?
-                                            <router-link to="register">Register Now</router-link>
+                                            <nuxt-link to="register">Register Now</nuxt-link>
                                         </p>
                                     </div>
                                 </div>
