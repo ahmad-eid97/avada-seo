@@ -52,13 +52,21 @@
                 </div>
             </div>
         </div>
+        <ModalVideo
+        channel="youtube"
+        videoId="tUP5S4YdEJo"
+        :isOpen.sync="videoIsOpen"
+        />
     </div>
 </template>
 
 <script>
+import ModalVideo from '../ModalVideo';
+
 export default {
     name: 'AppAboutExperiance',
     components: {
+        ModalVideo
     },
     data () {
         return {
